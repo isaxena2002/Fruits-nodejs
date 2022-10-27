@@ -17,7 +17,7 @@ const fruitSchema = new mongoose.Schema({
     review: String
 });
 
-const Fruit = mongoose.model("Fruit", fruitSchema);
+const Fruit = mongoose.model("vegetable", fruitSchema);
 
 const fruit = new Fruit({
     name: "Apple",
